@@ -27,3 +27,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 # Loader-Skeleton-in-Angular-application
 This project demonstrates how to create skeleton loaders In an Angular application.
+
+this loader skeleton can be used to display an interface indicating users that data is getting loaded.
