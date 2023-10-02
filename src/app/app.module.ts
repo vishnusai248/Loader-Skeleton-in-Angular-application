@@ -3,14 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { SkeletonComponentComponent } from './skeleton-component/skeleton-component.component';
+import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
+import { RepeatDirective } from './directives/repeat.directive';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SkeletonComponentComponent,
+    RepeatDirective
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxSkeletonLoaderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

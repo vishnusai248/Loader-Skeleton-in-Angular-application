@@ -1,0 +1,25 @@
+<div class="skeleton">
+    <div class="d-flex justify-content-between w-100 my-2 " style="height:auto;">
+        <div class="circle-loader me-2 " style="width: 10%; height: 15vh;"></div>
+        <div class="d-flex flex-column ali " style="width: 90%;">
+            <div class="loader-bar w-100 " style="height: 15px;"></div>
+            <div class="loader-bar w-75" style="height: 15px;"></div>
+            <div class="loader-bar w-50" style="height: 15px;"></div>
+        </div>
+    </div>
+    <div class="d-flex">
+        <div class="loader-bar w-25 me-2" style="height: 200px; border-radius: 10px;">
+        </div>
+        <div class="d-flex flex-column w-50 mx-2">
+            <div *repeat="4" class="loader-bar" style="height: 25px;"></div>
+            <!-- <div class="loader-bar"></div>
+            <div class="loader-bar"></div> -->
+        </div>
+        <div class="loader-bar w-25 ms-2" style="height: 200px;border-radius: 10px;">
+
+        </div>
+
+    </div>
+
+    <div *repeat="2" class="loader-bar"></div>
+</div>

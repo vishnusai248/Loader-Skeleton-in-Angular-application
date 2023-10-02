@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Skeleton-Loader';
+  isLoading: boolean = false;
+
+  fetchData() {
+    this.isLoading = true;
+
+    // setTimeout(() => {
+      // api call here
+    //   this.isLoading = false;
+    // }, 200000); // Simulate a 2-second delay
+  }
 }
